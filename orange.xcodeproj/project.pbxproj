@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E8143BD41FDBD4BA00FD93D2 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8143BD31FDBD4BA00FD93D2 /* ResourcePath.mm */; };
-		E8143BD71FDBD4BA00FD93D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8143BD61FDBD4BA00FD93D2 /* main.cpp */; };
 		E8143BDA1FDBD4BA00FD93D2 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8143BD91FDBD4BA00FD93D2 /* cute_image.jpg */; };
 		E8143BDC1FDBD4BA00FD93D2 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E8143BDB1FDBD4BA00FD93D2 /* nice_music.ogg */; };
 		E8143BDE1FDBD4BA00FD93D2 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8143BDD1FDBD4BA00FD93D2 /* sansation.ttf */; };
 		E8143BE01FDBD4BA00FD93D2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E8143BDF1FDBD4BA00FD93D2 /* icon.png */; };
+		E8143BE91FDBD9D000FD93D2 /* tictactoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8143BE81FDBD9D000FD93D2 /* tictactoe.cpp */; };
+		E8143BED1FDBDC7800FD93D2 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E8143BEA1FDBDC7800FD93D2 /* cross.png */; };
+		E8143BEF1FDBDC7800FD93D2 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = E8143BEC1FDBDC7800FD93D2 /* zero.png */; };
+		E8143BF11FDBDCB100FD93D2 /* name.png in Resources */ = {isa = PBXBuildFile; fileRef = E8143BF01FDBDCB100FD93D2 /* name.png */; };
+		E8143BF31FDBDE7500FD93D2 /* tictactoeboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E8143BF21FDBDE7500FD93D2 /* tictactoeboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,11 @@
 		E8143BDB1FDBD4BA00FD93D2 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		E8143BDD1FDBD4BA00FD93D2 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		E8143BDF1FDBD4BA00FD93D2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E8143BE81FDBD9D000FD93D2 /* tictactoe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tictactoe.cpp; sourceTree = "<group>"; };
+		E8143BEA1FDBDC7800FD93D2 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		E8143BEC1FDBDC7800FD93D2 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
+		E8143BF01FDBDCB100FD93D2 /* name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name.png; sourceTree = "<group>"; };
+		E8143BF21FDBDE7500FD93D2 /* tictactoeboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tictactoeboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 				E8143BD31FDBD4BA00FD93D2 /* ResourcePath.mm */,
 				E8143BD51FDBD4BA00FD93D2 /* ResourcePath.hpp */,
 				E8143BD61FDBD4BA00FD93D2 /* main.cpp */,
+				E8143BE81FDBD9D000FD93D2 /* tictactoe.cpp */,
 				E8143BD81FDBD4BA00FD93D2 /* Resources */,
 				E8143BD11FDBD4BA00FD93D2 /* Supporting Files */,
 			);
@@ -79,6 +89,10 @@
 			children = (
 				E8143BD91FDBD4BA00FD93D2 /* cute_image.jpg */,
 				E8143BDB1FDBD4BA00FD93D2 /* nice_music.ogg */,
+				E8143BEA1FDBDC7800FD93D2 /* cross.png */,
+				E8143BF01FDBDCB100FD93D2 /* name.png */,
+				E8143BF21FDBDE7500FD93D2 /* tictactoeboard.png */,
+				E8143BEC1FDBDC7800FD93D2 /* zero.png */,
 				E8143BDD1FDBD4BA00FD93D2 /* sansation.ttf */,
 				E8143BDF1FDBD4BA00FD93D2 /* icon.png */,
 			);
@@ -143,8 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8143BED1FDBDC7800FD93D2 /* cross.png in Resources */,
 				E8143BE01FDBD4BA00FD93D2 /* icon.png in Resources */,
+				E8143BEF1FDBDC7800FD93D2 /* zero.png in Resources */,
+				E8143BF11FDBDCB100FD93D2 /* name.png in Resources */,
 				E8143BDE1FDBD4BA00FD93D2 /* sansation.ttf in Resources */,
+				E8143BF31FDBDE7500FD93D2 /* tictactoeboard.png in Resources */,
 				E8143BDC1FDBD4BA00FD93D2 /* nice_music.ogg in Resources */,
 				E8143BDA1FDBD4BA00FD93D2 /* cute_image.jpg in Resources */,
 			);
@@ -173,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8143BD71FDBD4BA00FD93D2 /* main.cpp in Sources */,
+				E8143BE91FDBD9D000FD93D2 /* tictactoe.cpp in Sources */,
 				E8143BD41FDBD4BA00FD93D2 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
